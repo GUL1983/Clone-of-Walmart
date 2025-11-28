@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone of Walmart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <div class="walmart-logo"></div>
+            </div>
+            <div class="nav-location">
+                <div class="location-img"></div>
+                <div class="span-heading">
+                    <span class="b-heading">Pickup or delivery?</span>
+                    <br>
+                    <span class="s-heading">Sacramento, 95829 • Sacramento Superce</span>
+                </div>
+                <div class="drop-down-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="nav-search-bar">
+                <input type="text" placeholder="Search everything at Walmart online and in store" class="search-input">
+                <div class="search-icon">
+                    <div class="s-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-items">
+                <div class="item-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="block-headings">
+                    <span class="span-heading-one">Reorder</span>
+                    <br>
+                    <span class="span-heading-two">My Items</span>
+                </div>
+            </div>
+            <div class="nav-account">
+                <div class="item-icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="block-headings">
+                    <span class="span-heading-one">Sign In</span>
+                    <br>
+                    <span class="span-heading-two">Account</span>
+                </div>
+            </div>
+            <div class="cart-page">
+                <a href="cart.html" class="a-cart">
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <span class="span-headingd">$0.00</span>
+                </a>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="depart">
+                <span>Departments</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="sev">
+                <span>Services</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <a class="a-one">Get it Fast</a>
+            <a class="a-one">New Arrival</a>
+            <a class="a-one">Halloween</a>
+            <a class="a-two">Rollbacks & More</a>
+            <a class="a-two">Dinner Made Easy</a>
+            <a class="a-one">Gift Shop</a>
+            <a class="a-one">Toy Shop</a>
+            <a class="a-one">Pharmacy</a>
+            <a class="a-one">My Items</a>
+            <!-- <a class="a-two">Only at Walmart</a> -->
+            <!-- <a class="a-one">Credit Card</a> -->
+            <a class="a-one">Walmart+</a>
+            <div class="more">
+                <span>More</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <p class="carousel-p">New at Walmart</p>
+                       <h1 class="carousel-h1">Introducing Oura Rings</h1>
+                    </div>
+                <img src="walmart.img1/banner1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p class="carousel-p-2">christmas celebration</p>
+                       <h1 class="carousel-h1-2">gifts and decorations</h1>
+                    </div>
+                <img src="walmart.img1/banner2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p class="carousel-p-3">unlimited verity</p>
+                       <h1 class="carousel-h1-3">chips and cookies</h1>
+                    </div>
+                <img src="walmart.img1/banner3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="shopSection1">
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/card2.png);">
+                <span class="spanHeading1">Walmart + members earn</span>
+                <h1 class="h1-heading">5% cash back at Walmart</h1>
+                <a class="img-btnOne">Learn more</a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/card1.jpg);">
+                <span class="spanHeading2">Holiday install help from experts</span>
+                <h1 class="h1-heading2">Christmas light & decor setup</h1>
+                <a class="img-btnOne">Shop now</a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/card3.png);">
+                <!-- <span class="spanHeading1">Walmart + members earn</span> -->
+                <h1 class="h1Heading">Fall yard cleanup services</h1>
+                <a class="img-btnOne">Schedule now</a>
+            </div>
+        </div>
+    </div>
+    <div class="Section">
+        <div class="section-headings">
+            <h2 class="section-heading">Get it all right here</h2>
+            <a class="small-heading">View more</a>
+        </div>
+        <div class="shopSection2">
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/grocery.png);"></div>
+                <span class="item-heaading">Grocery</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/cream\ 3.png);"></div>
+                <span class="item-heaading">Beauty</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/cream\ 4.png);"></div>
+                <span class="item-heaading">Face Wash</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/toy\ 2.png);"></div>
+                <span class="item-heaading">Toy</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/baby\ 1.png);"></div>
+                <span class="item-heaading">Baby</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/garden\ 1.png);"></div>
+                <span class="item-heaading">Garden</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/tech\ 1.png);"></div>
+                <span class="item-heaading">Tech</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/medicen\ 1.png);"></div>
+                <span class="item-heaading">Medicen</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/home1.webp);"></div>
+                <span class="item-heaading">Home</span>
+            </div>
+            <div class="item1">
+                <div class="item1-img" style="background-image: url(walmart.img1/Fashion.webp);"></div>
+                <span class="item-heaading">Fashion</span>
+            </div>
+        </div>
+    </div>
+    <hr class="hrLine">
+    <div class="Section">
+        <div class="section-headings">
+            <h2 class="section-heading">Popular in kitchen</h2>
+            <a class="small-heading">View more</a>
+        </div>
+        <span class="offHeading">Up to 65% off</span>
+    </div>
+    <div class="shopSection3">
+        <div class="item2">
+            <div class="item2-img" style="background-image: url(walmart.img1/dish\ 7.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                </button>
+            </div>
+            <span class="item2-heaading">Now <sup>$</sup>44<sup>99</sup></span>
+            <br>
+            <span class="item-detail">T-fal Easy Care Nonstick Cookware, Jumbo Cooker, 5 Quart, Red</span>
+        </div>
+        <div class="item2">
+            <div class="item2-img" style="background-image: url(walmart.img1/dish\ 2.jpg);"></div>
+            <div class="add-btn">
+                <button class="plus-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add
+                </button>
+            </div>
+            <span class="item2-heaading">Now <sup>$</sup>6<sup>68</sup></span>
+            <br>
+            <span class="item-detail">Mainstays 8" Non-Stick Aluminum Skillet Black Dishwasher Safe</span>
+        </div>
+        <div class="item2">
+            <div class="item2-img" style="background-image: url(walmart.img1/dish\ 8.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading">Now <sup>$</sup>20<sup>46</sup></span>
+            <br>
+            <span class="item-detail">Tramontina PrimaWare 5 Quart Non-Stick Covered Jumbo Cooker</span>
+        </div>
+        <div class="item2">
+            <div class="Set-item2-img1" style="background-image: url(walmart.img1/dish\ 11.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading">Now <sup>$</sup>120<sup>00</sup></span>
+            <br>
+            <span class="item-detail">Rachael Ray 15-Piece Nonstick Pots and Pans Set/Cookware Set</span>
+        </div>
+        <div class="item2">
+            <div class="Set-item2-img2" style="background-image: url(walmart.img1/dish\ 12.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading">Now <sup>$</sup>179<sup>03</sup></span>
+            <br>
+            <span class="item-detail">Ninja® NeverStick™ Essential 14-Piece Cookware Set , Aluminium, Guaranteed to Never Stick, C19700</span>
+        </div>
+    </div>
+    <div class="shopSection4">
+        <div class="BOX">
+            <div class="item3-background">
+                <div class="img-headings">
+                    <h1 class="item3-heaading">Fitness at Walmart</h1>
+                    <a class="S-item3-heaading">View more</a>
+                </div>
+                <div class="fit-img" style="background-image: url(walmart.img1/fitness_1-removebg-preview1.png)"></div>
+            </div>
+        </div>
+        <div class="BOX">
+            <div class="section-headings">
+                <h2 class="section-heading">Get what’s trending, here</h2>
+                <a class="small-heading">View more</a>
+            </div>
+            <span class="offHeading">Up to 65% off</span>
+            <div class="item3-list">
+                <div class="item3">
+                    <div class="item3-img" style="background-image: url(walmart.img1/fitness\ 2.jpg);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>19<sup>99</sup></span>
+                    <br>
+                    <span class="item-detail3">CAP Barbell, 10lb Coated Rubber Hex Dumbbell, Pair</span>
+                </div>
+                <div class="item3">
+                    <div class="item3-img" style="background-image: url(walmart.img1/fitness\ 3.webp);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>24<sup>95</sup></span>
+                    <br>
+                    <span class="item-detail3">Athletic Works Deluxe High Density Foam Yoga Mat, 8mm Thick, 72" x 24", 1 Count, Grey</span>
+                </div>
+                <div class="item3">
+                    <div class="item3-img" style="background-image: url(walmart.img1/fitness\ 4.webp);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>12<sup>88</sup></span>
+                    <br>
+                    <span class="item-detail3">Athletic Works Adjustable Weighted Jump Rope, Adjusts up to 9' Length, Black & Red</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shopSection5">
+        <div class="BOX">
+            <div class="section-headings">
+                <h2 class="section-heading">Styles for every Demin</h2>
+                <a class="small-heading">View more</a>
+            </div>
+            <span class="offHeading">Up to 65% off</span>
+            <div class="item3-list">
+                <div class="item4">
+                    <div class="item4-img" style="background-image: url(walmart.img1/denim1.jpg);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>27<sup>23</sup></span>
+                    <br>
+                    <span class="item-detail3">Lee® Women's Regular Fit Legendary Denim Jacket, Sizes XS-XL</span>
+                </div>
+                <div class="item4">
+                    <div class="item4-img" style="background-image: url(walmart.img1/denim3.jpg);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>64<sup>99</sup></span>
+                    <br>
+                    <span class="item-detail3">Roaman's Women's Plus Size Plus Size Boyfriend Stretch Denim Jacket</span>
+                </div>
+                <div class="item4">
+                    <div class="item4-img" style="background-image: url(walmart.img1/denim2.jpg);"></div>
+                    <div class="add-btn">
+                        <button class="plus-btn">
+                            Options
+                        </button>
+                    </div>
+                    <span class="item3-heaading3">Now <sup>$</sup>24<sup>88</sup></span>
+                    <br>
+                    <span class="item-detail3">Time and Tru Women’s Cropped Denim Jacket, Sizes XS-3XL</span>
+                </div>
+            </div>
+        </div>
+        <div class="BOX">
+            <div class="item4-background">
+                <!-- <div class="img-headings">
+                    <h1 class="item3-heaading">Fitness at Walmart</h1>
+                    <a class="S-item3-heaading">View more</a>
+                </div> -->
+                <div class="denim-img" style="background-image: url(walmart.img1/demin.jpeg)">
+                    <div class="img-headings">
+                        <h1 class="item3-heaading">Demin for Everyboby</h1>
+                        <a class="S-item3-heaading">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="Section">
+        <div class="section-headings">
+            <h2 class="section-heading">Shop Deals & more by category</h2>
+            <a class="small-heading">View more</a>
+        </div>
+        <span class="offHeading">Up to 65% off</span>
+    </div>
+    <div class="shopSection6">
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/cream\ 2.jpeg);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>20<sup>40</sup></span>
+            <br>
+            <span class="item-detail5">SKIN Holy Hydration! Daily Moisturizer</span>
+        </div>
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/cream\ 1.webp);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>23<sup>83</sup></span>
+            <br>
+            <span class="item-detail5">Revitalift Triple Power Face Moisturizer, Unscented Cream</span>
+        </div>
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/baby\ 2.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>123<sup>99</sup></span>
+            <br>
+            <span class="item-detail5">Vomeast Baby Stroller, Foldable Aluminum Alloy Stroller with Reversible</span>
+        </div>
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/animal\ feed.webp);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>15<sup>50</sup></span>
+            <br>
+            <span class="item-detail5">Vibrant Life All-Purpose Cracked Corn, 40 lb Bag</span>
+        </div>
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/home.webp);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>179<sup>90</sup></span>
+            <br>
+            <span class="item-detail5">Txtin's Loveseat Sofa 53" Small Couches for Small Spaces 2 Seater Mini Couch for Bedroom</span>
+        </div>
+        <div class="item5">
+            <div class="item5-img" style="background-image: url(walmart.img1/garden\ 2.png);"></div>
+            <div class="add-btn">
+                <button class="plus-btn5">
+                    Options
+                </button>
+            </div>
+            <span class="item2-heaading5">Now <sup>$</sup>19<sup>18</sup></span>
+            <br>
+            <span class="item-detail5">Live Peace Lily Plant - Low Light - 4" Decorative Pot Cover - Blush</span>
+        </div>
+    </div>
+    <div class="hero-section1"></div>
+    <div class="shopSection1">
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/halloween7.webp);">
+                <span class="spanHeading1">Halloween at Walmart</span>
+                <h1 class="HALLO-h1-heading1">Halloween lights</h1>
+                <a class="img-btnOne-halloween">Shop now</a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/Halloween\ 3.webp);">
+                <span class="span-Heading2">Halloween at Walmart</span>
+                <h1 class="HALLO-h1-heading2">Halloween Cups</h1>
+                <a class="img-btnOne-halloween">Shop now</a>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne" style="background-image: url(walmart.img1/Halloween\ 4.jpg);">
+                <span class="spanHeading3">Halloween at Walmart</span>
+                <h1 class="HALLO-h1-heading3">Halloween jar glass</h1>
+                <a class="img-btnOne-halloween">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <a class="card-section">
+        <div class="card-para">
+            <div class="card-logo"></div>
+            <a class="card-text"><b>OnePay CashRewards CardEarn</b> unlimited 3% cash back at Walmart and 1.5% back on all other purchases <span class="about-card">Learn More</span></a>
+        </div>
+    </a>
+    <div class="section-headings">
+        <h2 class="section-heading">Trending on social</h2>
+        <!-- <a class="small-heading">View more</a> -->
+    </div>
+        <span class="offHeading">Shop creator faves</span>
+    <div class="shopSection7">
+        <div class="box1 box">
+            <div class="imgOne7" style="background-image: url(walmart.img1/trending4.jpg);">
+                <span class="spanHeading7">@straw_berrycreamxx</span>
+                <!-- <h1 class="HALLO-h1-heading1">Halloween lights</h1> -->
+                <!-- <a class="img-btnOne-halloween">Shop now</a> -->
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne7" style="background-image: url(walmart.img1/trending2.png);">
+                <span class="spanHeading7">@joyinstyleblog</span>
+                <!-- <h1 class="HALLO-h1-heading2">Halloween Cups</h1> -->
+                <!-- <a class="img-btnOne-halloween">Shop now</a> -->
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="imgOne7" style="background-image: url(walmart.img1/trending3.png);">
+                <span class="spanHeading7">@pleasantlybuilt</span>
+                <!-- <h1 class="HALLO-h1-heading3">Halloween jar glass</h1> -->
+                <!-- <a class="img-btnOne-halloween">Shop now</a> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="feedBack-section1">
+            <div class="FB-info">
+                <p class="FB-para">We’d love to hear what you think!</p>
+                <button class="FBbtn">Give feedback</button>
+            </div>
+        </div>
+        <div class="feedBack-section2">
+            <ul class="footer-ul-li">
+                <a>All Departments</a>
+                <a>Store Directory</a>
+                <a>Careers</a>
+                <a>Our Company</a>
+                <a>Sell on Walmart.com</a>
+                <a>Help</a>
+                <a>Product Recalls</a>
+                <a>Accessibility</a>
+                <a>Tax Exempt Program</a>
+                <a>Get the Walmart App</a>
+                <a>Safety Data Sheet</a>
+                <a>Terms of Use</a>
+                <a>Privacy Notice</a>
+                <a>California Supply Chain Act</a>
+                <a class="a-flex"><div class="privacy-img"></div>Your Privacy Choices</a>
+                <a>Customer Privacy Center</a>
+                <a>Notice at Collection</a>
+                <a>AdChoices</a>
+                <a>Consumer Health Data Privacy Notices</a>
+                <a>Brand Shop Directory</a>
+                <a>Pharmacy</a>
+                <a>Walmart Business</a>
+                <a>#IYWYK</a>
+                <a>Delete Account</a>
+            </ul>
+            <div class="copyRight">© 2025 Walmart. The trademarks Walmart and the Walmart Spark design are registered with the US Patent and Trademark Office. All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    height: 75px;
+    background-color: #0053e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    height: 36px;
+    width: 36px;
+}
+.walmart-logo {
+    background-image: url(walmart.img1/walmart-logo.svg);
+    background-size: cover;
+    height: 36px;
+    width: 36px;
+}
+.logo:hover {
+    background-color: #001360;
+    border-radius: 50%;
+    padding: 0.40rem;
+}
+/* .nav-location {
+    height: 52px;
+    width: 315px;
+    background-color: #002e99;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location-img {
+    height: 34px;
+    width: 34px;
+    background-image: url(walmart.images/location.png);
+    background-size: cover;
+}
+.span-heading {
+    display: block;
+}
+.b-heading {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.s-heading {
+    font-size: 0.75rem;
+    color: #ffffff;
+}
+.drop-down-icon {
+    font-size: 0.85rem;
+    color: #ffffff;
+    display: inline;
+}
+.nav-location:hover {
+    background-color: #001360;
+} */
+.cart-nav-search-bar {
+    height: 52px;
+    width: 920px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-input {
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+    margin-left: 1%;
+    color: #002e99;
+}
+.search-icon {
+    height: 33px;
+    width: 33px;
+    background-color: #002e99;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-icon {
+   height: 20px;
+   width: 20px;
+}
+.nav-items {
+    height: 52px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.span-heading-one {
+    font-size: 0.80rem;
+    color: #ffffff;
+}
+.span-heading-two {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.item-icon {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.block-headings {
+    display: block;
+}
+.nav-items:hover {
+    background-color: #001360;
+    border-radius: 26px;
+    padding: 0.10rem;
+}
+.nav-account {
+    height: 52px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-account:hover {
+    background-color: #001360;
+    border-radius: 26px;
+    padding: 0.10rem;
+}
+.cart-icon {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 12%;
+}
+.cart-heading {
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+.nav-cart {
+    display: inline;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-cart:hover {
+    background-color: #001360;
+    border-radius: 50%;
+    padding: 0.65rem;
+}
+.panel {
+    height: 50px;
+    background-color: #c9dcfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.depart {
+    height: 32px;
+    width: 125px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.depart:hover {
+    border: 1px solid #001360;
+}
+.sev {
+    height: 32px;
+    width: 95px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sev:hover {
+    border: 1px solid #001360;
+}
+.panel-ops {
+    display: flex;
+    width: 60%;
+    margin-right: 15%;
+    column-gap: 0.40rem;
+}
+.a-one {
+    height: 32px;
+    width: 88px;
+    background-color: #ffffff;
+    color: #001360;
+    font-size: 0.85rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-two {
+    height: 32px;
+    width: 126px;
+    background-color: #ffffff;
+    color: #001360;
+    font-size: 0.85rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more {
+    height: 32px;
+    width: 80px;
+    background-color: #ffffff;
+    color: #001360;
+    border: 1px solid #001360;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more:hover {
+    background-color: #c9dcfd;
+}
+.empty-headings {
+    display: flex;
+}
+.cart-heading-one {
+    font-size: 1.3rem;
+    color: #2e2f32;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+.cart-heading-two {
+    font-size: 1.3rem;
+    color: #46474a;
+    margin-top: 3%;
+    margin-left: 0.101%;
+}
+.cart-center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.cart-details {
+    height: 100%;
+    width: 503px;
+}
+.cart-logo {
+    display: flex;
+    justify-content: center;
+}
+.cart-img {
+    background-image: url(walmart.img1/empty-cart.svg);
+    background-size: cover;
+    height: 200px;
+    width: 240px;
+    margin-top: 3%;
+    align-items: center;
+}
+.cart-line-one {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.cart-btn {
+    display: flex;
+    justify-content: center;
+}
+.c-sign-in {
+    height: 40px;
+    width: 195px;
+    background-color: #0053e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-top: 3%;
+}
+.hr-line {
+    margin-top: 5%;
+    color: #e2e6e7;
+}
+.cart-line-two {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4%;
+}
+.cart-para {
+    font-size: 0.85rem;
+    color: #46474a;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-section {
+    height: 96px;
+    width: 402px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+.a-One {
+    height: 32px;
+    width: 112px;
+    border: 1px solid #2e2f32;
+    color: #2e2f32;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.a-One:hover {
+    border: 1px solid #0f1111;
+}
+.a-Two {
+    height: 32px;
+    width: 135px;
+    border: 1px solid #2e2f32;
+    color: #2e2f32;;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.a-Two:hover {
+    border: 2px solid #0f1111;
+}
+.a-Three {
+    height: 32px;
+    width: 105px;
+    border: 1px solid #2e2f32;
+    color: #2e2f32;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.a-Three:hover {
+    border: 2px solid #0f1111;
+}
+.a-Four {
+    height: 32px;
+    width: 120px;
+    border: 1px solid #2e2f32;
+    color: #2e2f32;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.a-Four:hover {
+    border: 2px solid #0f1111;
+}
+/* Sign-in page desgin*/
+.account-h-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.create-account {
+    height: 428px;
+    width: 350px;
+}
+.walmart-img {
+    height: 64px;
+    width: 64px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.walmart-logo1 {
+    background-image: url(walmart.img1/walmart-logo.svg);
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+.account-heading {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.account-p {
+    font-size: 0.90rem;
+    text-align: center;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #2e2f32;
+    margin-top: 6%;
+}
+.phone-number-or-email{
+    height: 56px;
+    width: 341px;
+}
+.h5{
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+.s-o-p-m{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: small;
+    color: rgb(78, 77, 77);
+}
+.information{
+    font-weight: 400;
+    font-size: small;
+    color: rgb(78, 77, 77);
+    margin-top: 5%;
+}
+.Continue{
+    background-color: #0053e2;
+}
+.Continue-btn {
+    height: 43px;
+    width: 341px;
+    background-color: #0053e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 6%;
+}
+/* footer */
+.footer1 {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+    color: #46474a;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-top: 0.80px solid #828386;
+}
+.copy-right {
+    font-size: 0.70rem;
+    color: #46474a;
+}
+.ul-a {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 0.80rem;
+}
+.a-flex {
+    display: flex;
+    text-decoration: none;
+    color: #46474a;
+}
+.privacy-img {
+    height: 15px;
+    width: 30px;
+    background-image: url(walmart.img1/right\ or\ wrong.png);
+    background-size: cover;
+}
+/* sign in page footer */
+.footer2 {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+    color: #46474a;
+    margin-top: 7%;
+    margin-left: 5%;
+    border-top: 0.80px solid #828386;
+}

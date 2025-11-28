@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    height: 75px;
+    background-color: #0053e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.walmart-logo {
+    background-image: url(walmart.img1/walmart-logo.svg);
+    background-size: cover;
+    height: 33px;
+    width: 33px;
+}
+.logo:hover {
+    background-color: #001360;
+    border-radius: 37px;
+}
+.nav-location {
+    height: 50px;
+    width: 300px;
+    background-color: #002e99;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.1rem;
+}
+.location-img {
+    height: 30px;
+    width: 30px;
+    background-image: url(walmart.img1/location.png);
+    background-size: cover;
+}
+.span-heading {
+    display: block;
+}
+.b-heading {
+    font-size: 0.85rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.s-heading {
+    font-size: 0.65em;
+    color: #ffffff
+}
+.drop-down-icon {
+    font-size: 0.85rem;
+    color: #ffffff;
+    display: inline;
+}
+.nav-location:hover {
+    background-color: #001360;
+}
+.nav-search-bar {
+    height: 50px;
+    width: 610px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-input {
+    height: 48px;
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    margin-left: 1%;
+    color: #002e99;
+}
+.search-icon {
+    height: 33px;
+    width: 33px;
+    background-color: #002e99;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-icon {
+   height: 20px;
+   width: 20px;
+   margin-bottom: 7%;
+}
+.nav-items {
+    height: 50px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.1rem;
+}
+.span-heading-one {
+    font-size: 0.80rem;
+    color: #ffffff;
+}
+.span-heading-two {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.item-icon {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.block-headings {
+    display: block;
+}
+.nav-items:hover {
+    background-color: #001360;
+    border-radius: 26px;
+    padding: 0.10rem;
+}
+.nav-account {
+    height: 50px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.1rem;
+}
+.nav-account:hover {
+    background-color: #001360;
+    border-radius: 26px;
+    padding: 0.10rem;
+}
+.cart-page {
+    height: 50px;
+    width: 60px;
+    margin-right: 4%;
+    text-decoration: none;
+}
+.cart-icon {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-left: 25%;
+}
+.cart-page:hover {
+    background-color: #001360;
+    border-radius: 30px;
+}
+.span-headingd {
+    font-size: 0.80rem;
+    color: #ffffff;
+    margin-left: 20%;
+}
+.panel {
+    height: 50px;
+    background-color: #c9dcfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.depart {
+    height: 30px;
+    width: 120px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.depart:hover {
+    border: 1px solid #001360;
+}
+.sev {
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sev:hover {
+    border: 1px solid #001360;
+}
+.a-one {
+    height: 30px;
+    width: 85px;
+    background-color: #ffffff;
+    color: #001360;
+    font-size: 0.80rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.a-two {
+    height: 30px;
+    width: 120px;
+    background-color: #ffffff;
+    color: #001360;
+    font-size: 0.80rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.more {
+    height: 30px;
+    width: 75px;
+    background-color: #ffffff;
+    color: #001360;
+    border: 1px solid #001360;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more:hover {
+    background-color: #c9dcfd;
+}
+.slider {
+    margin: 3% 3% 3% 3%;
+}
+.carousel-caption {
+    margin-right: 43%;
+    margin-bottom: 2%;
+}
+.carousel-p {
+    color: #001360;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.carousel-h1 {
+    color: #001360;
+    font-weight: bold;
+}
+.carousel-p-2{
+    color: pink;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.carousel-h1-2{
+    color: pink;
+    font-weight: bold;
+}
+.carousel-p-3{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.carousel-h1-3{
+    color: black;
+    font-weight: bold;
+}
+/* hero Section 1 */
+.shopSection1 {
+    display: flex;
+}
+.box {
+    height: 500px;
+    width: 31%;
+    margin: 1%;
+    border-radius: 3%;
+    /* border: 1px solid black; */
+}
+.imgOne {
+    height: 500px;
+    background-size: cover;
+    border-radius: 3%;
+}
+.spanHeading1 {
+    color: #001360;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 7%;
+    display: block;
+}
+.h1-heading {
+    color: #001360;
+    font-weight: bolder;
+    margin-left: 6%;
+    width: 290px;
+}
+.img-btnOne {
+    height: 32px;
+    width: 125px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    border: 1px solid #002e99;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.img-btnOne:hover {
+    border: 3px solid #001360;
+}
+.spanHeading2 {
+    color: #ed7e7e;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 7%;
+    display: block;
+}
+.h1-heading2 {
+    color: #ed7e7e;
+    font-weight: bolder;
+    margin-left: 6%;
+}
+.h1Heading {
+    color: #001360;
+    font-weight: bolder;
+    margin-left: 6%;
+    padding-top: 10%;
+    display: block;
+}
+.section-headings {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.section-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0f1111;
+    margin-left: 1%;
+}
+.small-heading {
+    font-size: 0.80rem;
+    color: #0f1111;
+    margin-right: 1%;
+}
+/* shop Section2 */
+.shopSection2 {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin: 1%;
+}
+.item1 {
+    height: 140px;
+    width: 120px;
+}
+.item1-img {
+    height: 130px;
+    width: 135px;
+    background-size: cover;
+}
+.item-heaading {
+    font-size: 0.80rem;
+    padding-left: 33%;
+}
+.hrLine {
+    margin-top: 4%;
+}
+.offHeading {
+    font-size: 0.80rem;
+    color: #74767c;
+    margin-left: 1%;
+}
+/* shop Section 3 */
+.shopSection3 {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.item2 {
+    height: 300px;
+    width: 265px;
+    margin: 0.80rem;
+}
+.item2-img {
+    height: 150px;
+    width: 245px;
+    background-size: cover;
+}
+.add-btn {
+    display: flex;
+    margin-bottom: 2%;
+}
+.plus-btn {
+    height: 30px;
+    width: 75px;
+    background-color: #ffffff;
+    color: #2e2f32;
+    border-radius: 15px;
+    border: 1px solid #2e2f32;
+    font-weight: bold;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus-btn:hover {
+    border: 2px solid #0f1111;
+}
+.item2-heaading {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #199131;
+}
+.item-detail {
+    font-size: 0.80rem;
+    color: #2e2f32;
+}
+.Set-item2-img1 {
+    height: 165px;
+    width: 230px;
+    background-size: cover;
+}
+.Set-item2-img2 {
+    height: 165px;
+    width: 210px;
+    background-size: cover;
+}
+/* shop Section4 */
+.shopSection4 {
+    display: flex;
+}
+.item3-background {
+    background-color: rgb(194, 123, 135);
+    display: flex;
+    border-radius: 2%;
+}
+.BOX {
+    height: 419px;
+    width: 46%;
+    /* border: 1px solid black; */
+    margin: 1%;
+}
+.fit-img {
+    height: 415px;
+    width: 40%;
+    background-size: cover;
+    margin-left: 1%;
+}
+.img-headings {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.item3-heaading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.S-item3-heaading {
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    color: #002e99;
+    border-radius: 15px;
+    border: 1px solid #001360;
+    font-weight: bold;
+    font-size: 0.80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.S-item3-heaading:hover {
+    border: 2px solid #001360;
+}
+.item3 {
+    height: 240px;
+    width: 220px;
+    margin: 0.80rem;
+}
+.item3-img {
+    height: 136px;
+    width: 155px;
+    background-size: cover;
+}
+.add-btn {
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.plus-btn3 {
+    height: 25px;
+    width: 70px;
+    background-color: #ffffff;
+    color: #2e2f32;
+    border-radius: 14px;
+    border: 1px solid #2e2f32;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus-btn3:hover {
+    border: 2px solid #0f1111;
+}
+.item3-heaading3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #199131;
+}
+.item-detail3 {
+    font-size: 0.70rem;
+    color: #2e2f32;
+}
+.item3-list {
+    display: flex;
+}
+/* shop Section 5 */
+.shopSection5 {
+    display: flex
+}
+.denim-img {
+    height: 355px;
+    width: 100%;
+    background-size: cover;
+    margin-left: 1%;
+    border-radius: 2%;
+}
+.item4-background {
+    /* background-color: rgb(194, 123, 135); */
+    display: flex;
+    border-radius: 2%;
+}
+.item4 {
+    height: 240px;
+    width: 200px;
+    margin: 0.80rem;
+}
+.item4-img {
+    height: 155px;
+    width: 145px;
+    background-size: cover;
+}
+/* shop Section 6 */
+.shopSection6 {
+    display: flex;
+    margin-top: 1%;
+}
+.item5 {
+   height: 240px;
+   width: 200px;
+   margin: 0.80rem;
+}
+.item5-img {
+    height: 155px;
+    width: 145px;
+    background-size: cover;
+}
+.plus-btn5 {
+    height: 25px;
+    width: 70px;
+    background-color: #ffffff;
+    color: #2e2f32;
+    border-radius: 15px;
+    border: 1px solid #2e2f32;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus-btn:hover {
+    border: 2px solid #0f1111;
+}
+.item2-heaading5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #199131;
+}
+.item-detail5 {
+    font-size: 0.75rem;
+    color: #2e2f32;
+}
+/* hero section 1 */
+.hero-section1 {
+    height: 360px;
+    background-image: url(walmart.img1/Halloween\ 2.png);
+    background-size: cover;
+    margin: 5% 3% 3% 3%;
+    border: 2px solid #e66102;
+    border-radius: 1%;
+}
+/* shop Section 6 */
+.spanHeading1 {
+    color: #0f1111;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 7%;
+    display: block;
+}
+.HALLO-h1-heading1 {
+    color: #0f1111;
+    font-weight: bolder;
+    margin-left: 6%;
+    /* width: 290px; */
+}
+.HALLO-h1-heading2 {
+    color: #910a0a;
+    font-weight: bolder;
+    margin-left: 6%;
+}
+.span-Heading2 {
+    color: #910a0a;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 7%;
+    display: block;
+}
+.HALLO-h1-heading3 {
+    color: #FFFFff;
+    font-weight: bolder;
+    margin-left: 6%;
+}
+.spanHeading3 {
+    color: #FFFFff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 7%;
+    display: block;
+}
+.img-btnOne-halloween {
+    height: 32px;
+    width: 110px;
+    background-color: #ffffff;
+    color: #001360;
+    border-radius: 15px;
+    border: 1px solid #002e99;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65%;
+    margin-left: 5%;
+}
+.img-btnOne-halloween:hover {
+    border: 3px solid #001360;
+}
+/* card Section */
+.card-para {
+    height: 51px;
+    width: 95%;
+    border-radius: 1%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    box-shadow: 0 .0625rem .125rem .0625rem #00000026;
+} 
+.card-logo {
+    background-image: url(walmart.img1/onepay.png);
+    background-size: cover;
+    height: 33px;
+    width: 60px;
+}
+.card-text {
+    font-size: 0.85rem;
+    color: rgb(46, 47, 50);
+    text-decoration: none;
+}
+.about-card {
+    text-decoration: underline;
+}
+/* shop Section 7 */
+.shopSection7 {
+    display: flex;
+    margin-top: 1%;
+}
+.imgOne7 {
+    height: 500px;
+    background-size: cover;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.spanHeading7 {
+    color: #FFFFff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 6%;
+    position: relative;
+    top: 85%;
+}
+/* footer */
+.feedBack-section1 {
+    height: 140px;
+    background-color: #e9f1fe;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FB-info {
+    text-align: center;
+}
+.FB-para {
+    font-size: 0.85rem;
+    color: #0f1111;
+}
+.FBbtn {
+    height: 35px;
+    width: 125px;
+    background-color: #ffffff;
+    color: #2e2f32;
+    border-radius: 15px;
+    border: 1px solid #2e2f32;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.FBbtn:hover {
+    border: 3px solid #2e2f32;
+}
+.feedBack-section2 {
+    height: 140px;
+    background-color: #002e99;
+}
+.footer-ul-li {
+    height: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFFFff;
+    font-size: 0.75rem;
+    column-gap: 1rem;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+.a-flex {
+    display: flex;
+    color: #FFFFff;
+    text-decoration: none;
+}
+.privacy-img {
+    height: 15px;
+    width: 30px;
+    background-image: url(walmart.img1/right\ or\ wrong.png);
+    background-size: cover;
+}
+.copyRight {
+    height: 50px;
+    background-color: #002e99;
+    color: #FFFFff;
+    font-size: 0.70rem;
+    text-align: center;
+}
